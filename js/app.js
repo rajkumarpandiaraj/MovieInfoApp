@@ -21,7 +21,8 @@ function getmovies(searchText){
         moviesArr.forEach(movieArr => {
             const row = `<div class = movie-list>
                             <img src= '${movieArr.Poster}' alt = 'Poster Not Available'>
-                            <p>${movieArr.Title}</p>
+                            <p class = 'title'>${movieArr.Title}</p>
+                            <a href = 'movie.html' class = 'btn'>More Details</a>
                         </div>`
             
             output += row ;
