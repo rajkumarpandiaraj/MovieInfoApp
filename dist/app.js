@@ -6,6 +6,7 @@ form.addEventListener('submit' , (e) => {
     const searchText = inputValue.value ;
     getmovies(searchText);
     inputValue.value = '';
+    
 });
 
 function getmovies(searchText){
